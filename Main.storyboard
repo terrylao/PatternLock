@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IcashApp_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgimages" translatesAutoresizingMaskIntoConstraints="NO" id="oK8-8x-vZ0" userLabel="bgimages">
+                                <rect key="frame" x="0.0" y="39" width="393" height="779"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00P-9O-3OZ" userLabel="lockView" customClass="HUIPatternLockView" customModule="IcashApp_ios" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="119" width="393" height="699"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="normalDotImage" value="dot_normal"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="highlightedDotImage" value="dot_normal_highlighted"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoT-8Q-7F3" userLabel="label">
+                                <rect key="frame" x="20" y="59" width="353" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.57101215486194479" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="linkColor"/>
+                        <constraints>
+                            <constraint firstItem="oK8-8x-vZ0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="3nS-Ef-ySL"/>
+                            <constraint firstAttribute="trailing" secondItem="oK8-8x-vZ0" secondAttribute="trailing" id="5B8-cc-nm2"/>
+                            <constraint firstItem="XoT-8Q-7F3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="EWB-XS-j09"/>
+                            <constraint firstAttribute="trailing" secondItem="00P-9O-3OZ" secondAttribute="trailing" id="HDy-Js-oij"/>
+                            <constraint firstItem="00P-9O-3OZ" firstAttribute="top" secondItem="XoT-8Q-7F3" secondAttribute="bottom" constant="8" id="PEY-Xb-9Pw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="00P-9O-3OZ" secondAttribute="bottom" id="Sz2-bY-ZPi"/>
+                            <constraint firstItem="oK8-8x-vZ0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bMm-qk-B8c"/>
+                            <constraint firstItem="00P-9O-3OZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fJe-Wy-eFr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oK8-8x-vZ0" secondAttribute="bottom" id="h2Q-tF-LIH"/>
+                            <constraint firstItem="XoT-8Q-7F3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="jFT-RL-MUE"/>
+                            <constraint firstAttribute="trailing" secondItem="XoT-8Q-7F3" secondAttribute="trailing" constant="20" id="oi9-qy-lWt"/>
+                            <constraint firstItem="00P-9O-3OZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="xAv-KS-Pr9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="llabel" destination="XoT-8Q-7F3" id="sFJ-38-Ro8"/>
+                        <outlet property="lockView" destination="00P-9O-3OZ" id="eTq-j9-38S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="371" y="320"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bgimages" width="275" height="183"/>
+        <image name="dot_normal" width="60" height="60"/>
+        <image name="dot_normal_highlighted" width="60" height="60"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

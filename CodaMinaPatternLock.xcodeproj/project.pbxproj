@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB722D1B2AA2C7DD0093F821 /* CodaMinaPatternLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722D1A2AA2C7DD0093F821 /* CodaMinaPatternLockApp.swift */; };
+		EB722D1D2AA2C7DD0093F821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722D1C2AA2C7DD0093F821 /* ContentView.swift */; };
+		EB722D1F2AA2C7DE0093F821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB722D1E2AA2C7DE0093F821 /* Assets.xcassets */; };
+		EB722D222AA2C7DE0093F821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB722D212AA2C7DE0093F821 /* Preview Assets.xcassets */; };
+		EB722D2C2AA2C7DE0093F821 /* CodaMinaPatternLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722D2B2AA2C7DE0093F821 /* CodaMinaPatternLockTests.swift */; };
+		EB722D362AA2C7DE0093F821 /* CodaMinaPatternLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722D352AA2C7DE0093F821 /* CodaMinaPatternLockUITests.swift */; };
+		EB722D382AA2C7DE0093F821 /* CodaMinaPatternLockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722D372AA2C7DE0093F821 /* CodaMinaPatternLockUITestsLaunchTests.swift */; };
+		EB722D522AA2CD9A0093F821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722D512AA2CD9A0093F821 /* ViewController.swift */; };
+		EB722D542AA2CDB50093F821 /* PatternLockWrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722D532AA2CDB50093F821 /* PatternLockWrapView.swift */; };
+		EB722D562AA2CDBB0093F821 /* PatternLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722D552AA2CDBB0093F821 /* PatternLock.swift */; };
+		EB722D582AA2CDC30093F821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB722D572AA2CDC30093F821 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB722D282AA2C7DE0093F821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB722D0F2AA2C7DD0093F821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB722D162AA2C7DD0093F821;
+			remoteInfo = CodaMinaPatternLock;
+		};
+		EB722D322AA2C7DE0093F821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB722D0F2AA2C7DD0093F821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB722D162AA2C7DD0093F821;
+			remoteInfo = CodaMinaPatternLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB722D172AA2C7DD0093F821 /* CodaMinaPatternLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodaMinaPatternLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB722D1A2AA2C7DD0093F821 /* CodaMinaPatternLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodaMinaPatternLockApp.swift; sourceTree = "<group>"; };
+		EB722D1C2AA2C7DD0093F821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB722D1E2AA2C7DE0093F821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB722D212AA2C7DE0093F821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB722D272AA2C7DE0093F821 /* CodaMinaPatternLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodaMinaPatternLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB722D2B2AA2C7DE0093F821 /* CodaMinaPatternLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodaMinaPatternLockTests.swift; sourceTree = "<group>"; };
+		EB722D312AA2C7DE0093F821 /* CodaMinaPatternLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodaMinaPatternLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB722D352AA2C7DE0093F821 /* CodaMinaPatternLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodaMinaPatternLockUITests.swift; sourceTree = "<group>"; };
+		EB722D372AA2C7DE0093F821 /* CodaMinaPatternLockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodaMinaPatternLockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB722D512AA2CD9A0093F821 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB722D532AA2CDB50093F821 /* PatternLockWrapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternLockWrapView.swift; sourceTree = "<group>"; };
+		EB722D552AA2CDBB0093F821 /* PatternLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternLock.swift; sourceTree = "<group>"; };
+		EB722D572AA2CDC30093F821 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB722D142AA2C7DD0093F821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722D242AA2C7DE0093F821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722D2E2AA2C7DE0093F821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB722D0E2AA2C7DD0093F821 = {
+			isa = PBXGroup;
+			children = (
+				EB722D192AA2C7DD0093F821 /* CodaMinaPatternLock */,
+				EB722D2A2AA2C7DE0093F821 /* CodaMinaPatternLockTests */,
+				EB722D342AA2C7DE0093F821 /* CodaMinaPatternLockUITests */,
+				EB722D182AA2C7DD0093F821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB722D182AA2C7DD0093F821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB722D172AA2C7DD0093F821 /* CodaMinaPatternLock.app */,
+				EB722D272AA2C7DE0093F821 /* CodaMinaPatternLockTests.xctest */,
+				EB722D312AA2C7DE0093F821 /* CodaMinaPatternLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB722D192AA2C7DD0093F821 /* CodaMinaPatternLock */ = {
+			isa = PBXGroup;
+			children = (
+				EB722D482AA2CCE70093F821 /* PatternLock */,
+				EB722D1A2AA2C7DD0093F821 /* CodaMinaPatternLockApp.swift */,
+				EB722D1C2AA2C7DD0093F821 /* ContentView.swift */,
+				EB722D1E2AA2C7DE0093F821 /* Assets.xcassets */,
+				EB722D202AA2C7DE0093F821 /* Preview Content */,
+			);
+			path = CodaMinaPatternLock;
+			sourceTree = "<group>";
+		};
+		EB722D202AA2C7DE0093F821 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB722D212AA2C7DE0093F821 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB722D2A2AA2C7DE0093F821 /* CodaMinaPatternLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB722D2B2AA2C7DE0093F821 /* CodaMinaPatternLockTests.swift */,
+			);
+			path = CodaMinaPatternLockTests;
+			sourceTree = "<group>";
+		};
+		EB722D342AA2C7DE0093F821 /* CodaMinaPatternLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB722D352AA2C7DE0093F821 /* CodaMinaPatternLockUITests.swift */,
+				EB722D372AA2C7DE0093F821 /* CodaMinaPatternLockUITestsLaunchTests.swift */,
+			);
+			path = CodaMinaPatternLockUITests;
+			sourceTree = "<group>";
+		};
+		EB722D482AA2CCE70093F821 /* PatternLock */ = {
+			isa = PBXGroup;
+			children = (
+				EB722D572AA2CDC30093F821 /* Main.storyboard */,
+				EB722D532AA2CDB50093F821 /* PatternLockWrapView.swift */,
+				EB722D552AA2CDBB0093F821 /* PatternLock.swift */,
+				EB722D512AA2CD9A0093F821 /* ViewController.swift */,
+			);
+			path = PatternLock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB722D162AA2C7DD0093F821 /* CodaMinaPatternLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB722D3B2AA2C7DE0093F821 /* Build configuration list for PBXNativeTarget "CodaMinaPatternLock" */;
+			buildPhases = (
+				EB722D132AA2C7DD0093F821 /* Sources */,
+				EB722D142AA2C7DD0093F821 /* Frameworks */,
+				EB722D152AA2C7DD0093F821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodaMinaPatternLock;
+			productName = CodaMinaPatternLock;
+			productReference = EB722D172AA2C7DD0093F821 /* CodaMinaPatternLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB722D262AA2C7DE0093F821 /* CodaMinaPatternLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB722D3E2AA2C7DE0093F821 /* Build configuration list for PBXNativeTarget "CodaMinaPatternLockTests" */;
+			buildPhases = (
+				EB722D232AA2C7DE0093F821 /* Sources */,
+				EB722D242AA2C7DE0093F821 /* Frameworks */,
+				EB722D252AA2C7DE0093F821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB722D292AA2C7DE0093F821 /* PBXTargetDependency */,
+			);
+			name = CodaMinaPatternLockTests;
+			productName = CodaMinaPatternLockTests;
+			productReference = EB722D272AA2C7DE0093F821 /* CodaMinaPatternLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB722D302AA2C7DE0093F821 /* CodaMinaPatternLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB722D412AA2C7DE0093F821 /* Build configuration list for PBXNativeTarget "CodaMinaPatternLockUITests" */;
+			buildPhases = (
+				EB722D2D2AA2C7DE0093F821 /* Sources */,
+				EB722D2E2AA2C7DE0093F821 /* Frameworks */,
+				EB722D2F2AA2C7DE0093F821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB722D332AA2C7DE0093F821 /* PBXTargetDependency */,
+			);
+			name = CodaMinaPatternLockUITests;
+			productName = CodaMinaPatternLockUITests;
+			productReference = EB722D312AA2C7DE0093F821 /* CodaMinaPatternLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB722D0F2AA2C7DD0093F821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EB722D162AA2C7DD0093F821 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EB722D262AA2C7DE0093F821 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EB722D162AA2C7DD0093F821;
+					};
+					EB722D302AA2C7DE0093F821 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EB722D162AA2C7DD0093F821;
+					};
+				};
+			};
+			buildConfigurationList = EB722D122AA2C7DD0093F821 /* Build configuration list for PBXProject "CodaMinaPatternLock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB722D0E2AA2C7DD0093F821;
+			productRefGroup = EB722D182AA2C7DD0093F821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB722D162AA2C7DD0093F821 /* CodaMinaPatternLock */,
+				EB722D262AA2C7DE0093F821 /* CodaMinaPatternLockTests */,
+				EB722D302AA2C7DE0093F821 /* CodaMinaPatternLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB722D152AA2C7DD0093F821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB722D582AA2CDC30093F821 /* Main.storyboard in Resources */,
+				EB722D222AA2C7DE0093F821 /* Preview Assets.xcassets in Resources */,
+				EB722D1F2AA2C7DE0093F821 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722D252AA2C7DE0093F821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722D2F2AA2C7DE0093F821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB722D132AA2C7DD0093F821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB722D542AA2CDB50093F821 /* PatternLockWrapView.swift in Sources */,
+				EB722D562AA2CDBB0093F821 /* PatternLock.swift in Sources */,
+				EB722D522AA2CD9A0093F821 /* ViewController.swift in Sources */,
+				EB722D1D2AA2C7DD0093F821 /* ContentView.swift in Sources */,
+				EB722D1B2AA2C7DD0093F821 /* CodaMinaPatternLockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722D232AA2C7DE0093F821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB722D2C2AA2C7DE0093F821 /* CodaMinaPatternLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722D2D2AA2C7DE0093F821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB722D382AA2C7DE0093F821 /* CodaMinaPatternLockUITestsLaunchTests.swift in Sources */,
+				EB722D362AA2C7DE0093F821 /* CodaMinaPatternLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB722D292AA2C7DE0093F821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB722D162AA2C7DD0093F821 /* CodaMinaPatternLock */;
+			targetProxy = EB722D282AA2C7DE0093F821 /* PBXContainerItemProxy */;
+		};
+		EB722D332AA2C7DE0093F821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB722D162AA2C7DD0093F821 /* CodaMinaPatternLock */;
+			targetProxy = EB722D322AA2C7DE0093F821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB722D392AA2C7DE0093F821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB722D3A2AA2C7DE0093F821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB722D3C2AA2C7DE0093F821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodaMinaPatternLock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaPatternLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB722D3D2AA2C7DE0093F821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodaMinaPatternLock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaPatternLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB722D3F2AA2C7DE0093F821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaPatternLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodaMinaPatternLock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodaMinaPatternLock";
+			};
+			name = Debug;
+		};
+		EB722D402AA2C7DE0093F821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaPatternLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodaMinaPatternLock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodaMinaPatternLock";
+			};
+			name = Release;
+		};
+		EB722D422AA2C7DE0093F821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaPatternLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodaMinaPatternLock;
+			};
+			name = Debug;
+		};
+		EB722D432AA2C7DE0093F821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaPatternLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodaMinaPatternLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB722D122AA2C7DD0093F821 /* Build configuration list for PBXProject "CodaMinaPatternLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB722D392AA2C7DE0093F821 /* Debug */,
+				EB722D3A2AA2C7DE0093F821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB722D3B2AA2C7DE0093F821 /* Build configuration list for PBXNativeTarget "CodaMinaPatternLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB722D3C2AA2C7DE0093F821 /* Debug */,
+				EB722D3D2AA2C7DE0093F821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB722D3E2AA2C7DE0093F821 /* Build configuration list for PBXNativeTarget "CodaMinaPatternLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB722D3F2AA2C7DE0093F821 /* Debug */,
+				EB722D402AA2C7DE0093F821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB722D412AA2C7DE0093F821 /* Build configuration list for PBXNativeTarget "CodaMinaPatternLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB722D422AA2C7DE0093F821 /* Debug */,
+				EB722D432AA2C7DE0093F821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB722D0F2AA2C7DD0093F821 /* Project object */;
+}
